@@ -11,8 +11,8 @@ class GasStation
     @unleaded_price = unleaded_price
   end
 
-  def unleaded_price
-    unleaded_price = 100
+  def change_gas_price
+    self.unleaded_price = 500
   end
 end
 
