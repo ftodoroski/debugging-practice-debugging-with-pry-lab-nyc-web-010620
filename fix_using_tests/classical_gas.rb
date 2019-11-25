@@ -12,7 +12,7 @@ class GasStation
   end
 
   def unleaded_price=
-    unleaded_price = 100
+    @unleaded_price = 100
   end
 end
 
