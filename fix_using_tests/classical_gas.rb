@@ -12,7 +12,7 @@ class GasStation
   end
 
   def change_price
-    brand.unleaded_price = 100
+    unleaded_price = 100
   end
 end
 
